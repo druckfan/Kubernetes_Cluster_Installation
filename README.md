@@ -138,13 +138,6 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
-For another user (e.g., `olle`):
-```bash
-sudo mkdir -p /home/olle/.kube
-sudo cp -i /etc/kubernetes/admin.conf /home/olle/.kube/config
-sudo chown olle:olle /home/olle/.kube/config
-```
-
 ---
 
 ## 9️⃣ Install Calico CNI (Pod Networking)
